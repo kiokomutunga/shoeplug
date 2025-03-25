@@ -1,0 +1,53 @@
+/* Ensure full height and remove default margin */
+ body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the form */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+/* Form heading */
+.form-box h2 {
+    margin-bottom: 15px;
+}
+
+/* Input fields */
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Toggle button for switching between forms */
+.toggle-btn {
+    background-color: lightgray;
+    color: black;
+}
